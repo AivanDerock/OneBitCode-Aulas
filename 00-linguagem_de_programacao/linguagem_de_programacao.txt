@@ -1,0 +1,16 @@
+!!! Aula 01 !!!
+
+O que é uma Linguagem de Programação?? {
+
+      Uma linguagem de programação, é um conjunto de códigos que contém instruções para o computador (algoritmo)
+
+      HTML e CSS, são linguagens de marcação e não de programação. JS, PHP, Python, etc…. são linguagens de programação, pois podemos mudar as ações de uma página web, um exemplo seria um botão na tela que tem uma animação assim que é clicado.
+
+      Existe linguagens de Alto e baixo nível, onde as de alto nível são parecidas com a linguagem Humana e a de baixo nível, seria na “linguagem” de máquinas. Sendo assim, as de alto nível são mais fáceis de entender, onde a de baixo nível é mais fácil para o hardware entender e os humanos se batem para entender.
+
+}
+
+
+
+
+

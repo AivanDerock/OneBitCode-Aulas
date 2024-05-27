@@ -1,0 +1,32 @@
+Aula 03
+
+Tipos de Dados {
+
+  Os dados nas linguagens de programação, podem ser representados de diferentes formas, esses dados seriam as informações e valores. Em um programa, precisamos manipular esses dados. 
+
+  Tipos Primitivos (Informações mais simples) {
+
+    Number: 5, 999, 82.5, ... | O javascript pode entender tanto numero inteiros, como tambem, numeros "quebrados"
+
+    Bigint: 9999999999999999999999n | Exclusivo para numeros inteiros, onde o valor seja muito grande (ex: 10000000000.....). Para usar o Bigint, precisamos apenas colocar um "n" no final de cada numero (ex: 2334325352535n)
+
+    String: "ivan", 'ivan'[3], 'ivan'.length = 4 | Aqui tratamos de textos, valores "textuais", o js entende como "texto" os valores entre aspas ("" ou ''). Podemos tambem considerar uma string, como uma lista de caracteres, um exemplo seria: "ivan"[1]; Onde esse valor vai devolver como resultado o "v". Podemos tambem usar o ".length" para sabermos quantos caracteres tem no total, ex: 'ivan'.length = 4.
+
+    Boolean: true ou false | Quando falamos de computacao, estamos falando de 0 ou 1, que seria verdadeiro ou falso. Os valores booleanos, se baseiam nessa logica, de verdadeiro ou falso, onde true é verdadeiro e False, seria falso.
+
+    Null: null | Aqui temos um valor nulo, onde seria teoricamente um valor "vazio", mas..., um vazio com valor. No javascript, podemos atribuir um valor vazio, aqui temos um valor que "existe" mas esta vazio
+
+    Undefined: undefined | Aqui temos um valor nao definido, funciona quando nao atribuimos nada, sem valor definido. Quando nenhum dos outros valores forem atribuidos, como por exemplo o Number, se nao for atribuido um valor numerico, aparecera um "valor" undefined. Em alguns casos, queremos representar um valor vazio, dai usamos o Null.
+  }
+
+  Tipos não Primitivos (tipos mais elaborados) {
+
+    object: [number, strings, Boolean, null, ...] | No javascript, um object é um conjunto de dados, permitindo armazenar varios valores diferentes, um exemplo é o devtools do chrome, onde ele armazena varios tipos de dados, desde numeros ate deus sabe oq mais. No devtools, se usado "typeof console" o valor devolvido é um "object"
+
+    function: | As funcoes, seria como uma lista de tarefas, onde seria meio que um processo onde podemos executar no codigo. Um exemplo seria "console.error('algo deu errado') o resultado é uma funcao devolvendo o seguinte texto "algo deu errado". Um outro exemplo, seria o Alert, onde se chamado "alert("ivan fechou o chrome")" aparecera na janela do chrome, em uma caixinha ja personalizada "ivan fechou o chrome"
+  }
+}
+
+
+
+

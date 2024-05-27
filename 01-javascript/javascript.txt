@@ -1,0 +1,27 @@
+!!! Aula 02 !!!
+
+O que é JavaScript? {
+  
+    JavaScript, seria uma linguagem de programação, onde a mesma tem suas particularidades. Para começar, o JS foi criado por Brendan Eich em 1995 para ser usado pelo NetScape.
+
+    Não podemos confundir Java com JavaScript. Java só tem o nome de parecido, já em outras questões, são totalmente diferentes.
+
+    O nome oficial é ECMAScript, por conta da ECMA que seria uma organização que faz padronizações de linguagens, uma delas é o próprio JS.
+
+    Como citado antes, o JS é uma linguagem de alto nível, onde a um fácil entendimento pelos “humanos”.
+
+    Atualmente, o Js é a principal linguagem de programação usada no desenvolvimento Web. Junto com o HTML e CSS, os três, acabam formando as principais tecnologias para o desenvolvimento Web.
+
+    O Js é meio dividido, ele funciona tanto no desenvolvimento front-end, quanto no back-end. Sendo assim ele também pode ser usado fora dos navegadores, como por exemplo o Node.Js que seria uma das formas de usar o Js no back-end.
+}
+
+
+
+
+
+
+
+
+
+
+
