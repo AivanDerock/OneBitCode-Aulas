@@ -21,7 +21,7 @@ Tipos de Dados {
 
   Tipos não Primitivos (tipos mais elaborados) {
 
-    object: [number, strings, Boolean, null, ...] | No javascript, um object é um conjunto de dados, permitindo armazenar varios valores diferentes, um exemplo é o devtools do chrome, onde ele armazena varios tipos de dados, desde numeros ate deus sabe oq mais. No devtools, se usado "typeof console" o valor devolvido é um "object"
+    object: {number, strings, Boolean, null, ...} | No javascript, um object é um conjunto de dados, permitindo armazenar varios valores diferentes, um exemplo é o devtools do chrome, onde ele armazena varios tipos de dados, desde numeros ate deus sabe oq mais. No devtools, se usado "typeof console" o valor devolvido é um "object"
 
     function: | As funcoes, seria como uma lista de tarefas, onde seria meio que um processo onde podemos executar no codigo. Um exemplo seria "console.error('algo deu errado') o resultado é uma funcao devolvendo o seguinte texto "algo deu errado". Um outro exemplo, seria o Alert, onde se chamado "alert("ivan fechou o chrome")" aparecera na janela do chrome, em uma caixinha ja personalizada "ivan fechou o chrome"
     
