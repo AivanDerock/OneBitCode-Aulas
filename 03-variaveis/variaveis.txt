@@ -1,0 +1,66 @@
+!!! Aula 04 !!!
+
+Variáveis {
+
+  Variáveis, servem para armazenar algum tipo de dado, um exemplo é a variavel declarada como "nome", ela tera o dado armazenado como "nome = "...". Tambem podemos criar uma lista de dados com as variaveis, basta usar o "{}" para sinalizar ao javascript que estamos trabalhando com uma "lista" de dados. 
+
+  Ex1: var name = "Ivan" 
+  
+  Ex2: var IvanDadosPessoais = {
+    Nome: "Ivan",
+    Sobrenome: "Rocha",
+    Idade: 18,
+    Endereço: "Rua .....",
+    Trabalho: "Auxiliar de operações",
+  }
+
+  Criando Variáveis {
+    Temos 3 tipos de variaveis: var, let e const
+
+    var {
+      
+      usada a partir do nome variavel, ela serve para nao so apenas armazenar os dados fornecidos, mas tambem para manipular eles. se criarmos uma variável deste tipo dentro de uma função, você pode modificar em qualquer parte desta função, mesmo se criar outra função dentro dela 
+
+      ex: function exibirNome() {
+        var name = "ivan"
+      }
+
+      console.log(name) 
+
+      as var, nao sao muito recomendadas em projetos grandes.
+    } 
+
+    let {
+
+      let, serve da mesma forma que o var (para armazenar), porem é uma forma mais "atualizada", muito recomendado o uso em projetos de grande porte.  Se declarado uma let, precisamos levar em conta o bloco de código onde foi declarada. Isso significa que se a declararmos dentro de um uma função, ela será “enxergada” apenas dentro deste escopo 
+
+      ex: let name = 'ivan'
+          if(true) {
+            let name = 'ana'
+            console.log(name)
+          }
+
+          console.log(name)
+
+      por que nao retorna um erro, ja que esta usando a mesma declaracao (name)?? pois a declaracao pode ser a mesma, mas as variaveis se encontram em escopos diferentes, um esta fora da function, ja o outro, esta dentro
+    }
+
+    const {
+      
+      Uma variável const é usada para definir uma constante. Diferente de var e let, as variáveis de const não podem ser atualizadas nem declaradas novamente.
+
+      ex: const name = "ivan"
+          name = 'Ana'
+      
+      Nesse caso ira retornar um erro, pois nao podemos mudar o valor de uma constante, ja esta definido o valor de name como Ivan.
+    }
+  }
+
+  Dando nomes {
+    
+    Sempre procurar dar nomes claros e objetivos, um exemplo é: var nomeAluno ou var nomeProf. Nunca nomer as sua variaveis assim: var a ou var nome13. Procurar deixar seu codigo limpo e objetivo
+  
+  }
+
+  
+}
