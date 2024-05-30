@@ -7,11 +7,13 @@ Variáveis {
   Ex1: var name = "Ivan" 
   
   Ex2: var IvanDadosPessoais = {
+
     Nome: "Ivan",
     Sobrenome: "Rocha",
     Idade: 18,
     Endereço: "Rua .....",
     Trabalho: "Auxiliar de operações",
+    
   }
 
   Criando Variáveis {
