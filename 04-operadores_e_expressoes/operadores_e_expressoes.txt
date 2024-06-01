@@ -1,0 +1,93 @@
+!!! Aula 05 !!!
+
+Operadores e Expressoes {
+
+  Operadores {
+    Operadores em JavaScript são símbolos especiais que envolvem um ou mais operandos com a finalidade de produzir um determinado resultado. Podemos usar os Operadores para fazer calculos aritméticos, atribuicao e ate mesmo incrementar e decrementar.
+
+
+    Aritméticos: +, -, *, / e %
+
+    Agrupamento: ( )
+
+    Atribuição: =, +=, -=, *=, /= e %=
+
+    Encadeamento: .
+
+    Incrementar: ++ 
+    Decrementar: --
+
+    Concatenação de strings: +
+  }
+
+  Aritméticos {
+
+    Operadores aritméticos tomam valores numéricos como seus operandos e retornam um único valor numérico. Os operadores aritméticos padrão são os de soma (+), subtração (-), multiplicação (*) e divisão (/), atualmente temos tambem o módulo (%), seria o que "sobra" da divisão.
+
+    +  // Soma 
+    -  // Subtração
+    *  // Multiplicação
+    /  // Divisão
+    %  // Módulo
+  }
+
+  Agrupamento {
+
+    No js, os padroes matematicos sao os mesmo, como por exemplo, a multiplicacao vem antes da soma ou subtração. Mas tambem, podemos fazer de outra forma, usando os "()"
+
+    Ex: 3 + 3 * 5 = 18, mas com os () ficaria: (3 + 3) * 5 = 30
+  }
+
+  Atribuição {
+    Como o nome auto explicativo diz, a Atribuição seria para atribuir algum valor. Podemos usar =, +=, -=, *=, /= e %=.
+
+    Ex {
+
+      = : let nome "=" "Ivan"
+
+      += : a = a + 3, Agora vai ser a forma simplificada: a += 3
+
+      -= : a = a - 3, Agora vai ser a forma simplificada: a -= 3
+
+      *= : a = a * 3, Agora vai ser a forma simplificada: a *= 3
+
+      /= : a = a / 3, Agora vai ser a forma simplificada: a /= 3
+
+      %= : a = a % 3, Agora vai ser a forma simplificada: a %= 3
+    }
+  }
+
+  Encadeamento {
+    O operador de Encadeamento, seria o ponto "." que usamos durante o deselvovimento do codigo.
+
+    Ex {
+      console"."log()
+
+      console"."error()
+
+      windows"."alert()
+    }
+  }
+
+  Incrementar e Decrementar {
+    Aqui, ambos os operadores, vao incrementar ou decrementar o valor de "1" de qualquer valor.
+
+    Ex {
+      var a = 3
+      a++ = 4
+      ++a = 5
+      --a = 4
+      --a = 3
+    }
+  }
+
+  Concatenação {
+    Aqui juntamos uma string na outra, atraves do operador "+"
+
+    Ex {
+      "ivan " + "rocha"
+    }
+  }
+
+
+}
