@@ -87,7 +87,13 @@ Operadores e Expressoes {
     Ex {
       "ivan " + "rocha"
     }
+
+    Temos que ter cuidado com a Concatenação do js, pois uma string e um number nao conseguem se concatena.
+
+    Ex {
+      1 + "1" = 11
+
+      Aqui ele entendeu o um entre aspas como uma string, por isso aconteceu a Concatenação. O js faz a conversao do number para o js de forma automatica.
+    }
   }
-
-
 }
