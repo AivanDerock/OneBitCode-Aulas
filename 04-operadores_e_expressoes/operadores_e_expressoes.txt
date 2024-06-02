@@ -5,7 +5,6 @@ Operadores e Expressoes {
   Operadores {
     Operadores em JavaScript são símbolos especiais que envolvem um ou mais operandos com a finalidade de produzir um determinado resultado. Podemos usar os Operadores para fazer calculos aritméticos, atribuicao e ate mesmo incrementar e decrementar.
 
-
     Aritméticos: +, -, *, / e %
 
     Agrupamento: ( )
