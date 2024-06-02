@@ -1,5 +1,4 @@
 function recruta() {
-
   let nome = prompt('Qual é o seu primeiro nome?')
   let sobrenome = prompt('Qual é o seu sobrenome?')
   let campoEstudo = prompt('Qual é o seu campo de estudos?')
