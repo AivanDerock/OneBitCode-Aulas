@@ -1,0 +1,23 @@
+!!! Aula 06 !!!
+
+Comparação de dados {
+  As comparações, retornam um resultado booleano, que seria de true ou false. Um operador de comparação compara seus operandos e retorna um valor lógico baseado em se a comparação é verdadeira. Na maioria dos casos, se dois operandos não são do mesmo tipo, o JavaScript tenta convertê-los para um tipo apropriado. Isto geralmente resulta na realização de uma comparação numérica.
+
+  operadores {
+    Igual (==): Retorna true caso os operandos sejam iguais
+
+    Não igual (!=): Retorna true caso os operandos não sejam iguais
+
+    Estritamente igual (===): Retorna true caso os operandos sejam iguais e do mesmo tipo.
+
+    Estritamente não igual (!==): Retorna true caso os operandos não sejam iguais e do mesmo tipo.
+
+    Maior que (>): Retorna true caso o operando da esquerda seja maior que o da direita
+
+    Maior que ou igual (>=): Retorna true caso o operando da esquerda seja maior ou igual que o da direita.
+
+    Menor que (<): Retorna true caso o operando da esquerda seja menor que o da direita
+ 
+    Menor que ou igual (<=): Retorna true caso o operando da esquerda seja menor ou igual que o da direita
+  }
+}
