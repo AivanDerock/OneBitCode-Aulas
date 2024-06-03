@@ -1,0 +1,37 @@
+!!! Aula 07 !!!
+
+Operadores lógicos {
+  Aqui, trabalhamos apenas com valores booleanos novamente, entre true e false. Os operadores logicos, servem para fazer expressoes entre valores booleanos. Existe 3 tipos de operadores, o E (and); Ou (or); e não (not). 
+
+  E (and) {
+
+    Só é verdadeiro se ambas as partes forem verdadeiras 
+
+    Operador: &&
+
+    true && true === true
+    true && false === false
+    false && true === false
+    false && false === false
+  }
+
+  Ou (or) {
+    Só é falso, se ambos forem falsos.
+
+    Operador: ||
+
+    true || true === true
+    true || false === true
+    false || true === true
+    false || false === false
+  }
+
+  Não (not) {
+    Inverte o resultado (de verdadeiro para falso e vice-versa)
+
+    Operador: !
+
+    ! true === false
+    ! false === true
+  }
+}
