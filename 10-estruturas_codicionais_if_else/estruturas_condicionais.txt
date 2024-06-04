@@ -1,0 +1,15 @@
+!!! Aula 08 !!!
+
+Estruturas Condicionais {
+
+  As estruturas condicionais são utilizadas para verificar uma condição e definir se algo deve ou não acontecer.
+
+  Podemos representar condições em JavaScript utilizando o comando de estrutura condicional If; Else; e Else If
+
+  caso a condição for falsa, o fluxo irá continuar sem executar nosso código dentro do if.
+
+  caso você queira executar algo quando a condição for falsa, utilizamos o else. O else sempre será executado caso o if seja falso.
+
+  O else if nos ajuda a fazer mais do que uma condição, ou seja se a condição anterior não for verdadeira verifique uma nova condição.
+}
+
