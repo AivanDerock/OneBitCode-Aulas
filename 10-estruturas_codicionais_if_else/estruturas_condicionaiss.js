@@ -12,9 +12,10 @@ function if_and_else() {
     console.log("você não tem idade")
   }
 
-  const idade1 = 18
+  const idade1 = 19
 
-  let resultado = (idade1 > 18) ? 'Você é de maior' : 'você é de menor' ? (idade1 === 18) ? 'Exercito??' : (idade1 < 18) : 'você não tem idade'
+
+  let resultado = (idade1 > 18) ? 'Você é de maior...' : (idade1 === 18) ? 'Exercito??' : 'você é de menor...'
 
   console.log(resultado)
 }
