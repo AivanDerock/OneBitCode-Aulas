@@ -1,0 +1,17 @@
+!!! Aula 09 !!!
+
+Permite criar blocos condicionais como o IF, porém com um estrutura que avalia uma expressão e testa o resultado contra vários casos, executando os casos correspondentes.
+
+switch (expressao) {
+  case "a":
+    // ...
+  case "b":
+    // ...
+    break
+  case "c":
+    // ...
+  default:
+    // ...
+}
+
+É possível definir um caso padrão, que sempre é executado ou, é possível parar a execução após algum dos casos.
