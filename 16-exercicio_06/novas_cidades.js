@@ -32,4 +32,5 @@ const nova_cidade = () => {
   - Cidades visitadas: ${cidades_visitadas.join(', ')}`)
 }
 
+
 nova_cidade()
