@@ -1,37 +1,29 @@
-const nova_cidade = () => {
+function novas_cidades() {
   let nome_turista = prompt('Qual é o seu nome?')
-  let cidade_natal = prompt('Qual é a sua cidade natal?')
+  let nome_cidade_natal = prompt(`${nome_turista}, qual é a sua cidade natal?`)
   let cidades_visitadas = []
   let visita_cidade = prompt(
-    `${nome_turista}, já esteve em outras cidade? (sim/não)`
+    `${nome_turista}, você visitou alguma cidade? (sim/não)`
   ).toLowerCase()
 
   while (visita_cidade === 'sim') {
-    let cidade = prompt('Quais cidades visitou?')
-    cidades_visitadas.push(cidade)
+    let nome_cidade = prompt('Qual é o nome da cidade visitada?')
+    cidades_visitadas.push(nome_cidade)
 
-    let adicionarOutra = confirm('Gostaria de adicionar outra cidade visitada?')
-    if (!adicionarOutra) {
+    let add_cidade = confirm('Gostaria de adicionar outra cidade?')
+    if (!add_cidade) {
       break
     }
+  } 
+
+  let dados = confirm(`${nome_turista}, os dados estão corretos?`)
+
+  if (dados) {
+    alert(`Dados: \n
+      - Nome: ${nome_turista} \n
+      - Cidade Natal: ${nome_cidade_natal} \n
+      - Cidades Visitadas: ${cidades_visitadas.join(', ')}....`)
   }
-
-  while (true) {
-    let adicionarMais = confirm('Gostaria de adicionar mais cidades visitadas?')
-    if (!adicionarMais) {
-      break
-    }
-
-    let cidade = prompt('Quais cidades visitou?')
-    cidades_visitadas.push(cidade)
-  }
-
-  alert(`${nome_turista}, revise os dados fornecidos: \n
-  - Nome: ${nome_turista} \n
-  - Cidade natal: ${cidade_natal} \n
-  - Cidades visitadas: ${cidades_visitadas.join(', ')}`)
 }
 
-
-
-nova_cidade()
+novas_cidades()
