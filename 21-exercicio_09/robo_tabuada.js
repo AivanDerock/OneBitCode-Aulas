@@ -4,8 +4,8 @@ const robo_tabuada = () => {
 
   for (let i = 1; i <= 10; i++) {
     tabuada += `${num} X ${i} = ${num * i} \n`
-    alert(`A tabuada de ${num} é: \n ${tabuada}`)
   }
+  alert(`A tabuada de ${num} é: \n ${tabuada}`)
 }
 
 robo_tabuada()
