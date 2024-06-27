@@ -25,4 +25,5 @@ const proc_polindromo = () => {
   } while (continuar)
 }
 
+
 proc_polindromo()
