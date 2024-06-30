@@ -15,6 +15,7 @@ const proc_polindromo = () => {
       alert(`A palavra "${palavra}" não é um palíndromo.`)
     }
 
+    
     alert(
       `A palavra original foi "${palavra}" e a invertida foi "${invertida}"`
     )
