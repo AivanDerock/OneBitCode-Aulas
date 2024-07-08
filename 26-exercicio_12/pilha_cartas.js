@@ -1,5 +1,5 @@
 const truco = () => {
-  alert('Seja bem-vindo ao jogo de truco!')
+  alert('Seja bem vindo ao jogo Truco!!')
   let cartasBaralho = [
     'A',
     '2',
@@ -18,10 +18,10 @@ const truco = () => {
 
   const puxarCarta = () => {
     if (cartasBaralho.length > 0) {
-      let puxarCarta = confirm('Gostaria de puxar uma carta?')
+      let puxarCarta = confirm('Gostaria de puxar uma carta??')
       if (puxarCarta) {
         let cartaPuxada = cartasBaralho.shift()
-        alert(`Carta puxada: ${cartaPuxada}`)
+        alert(`A carta puxada: ${cartaPuxada}`)
       } else {
         alert('Por favor, puxe uma carta.')
       }
@@ -31,14 +31,12 @@ const truco = () => {
   }
 
   const adicionarCarta = () => {
-    let adicionarCarta = confirm(
-      'Gostaria de adicionar uma nova carta ao baralho?'
-    )
+    let adicionarCarta = confirm('Gostaria de adicionar uma carta ao baralho??')
     if (adicionarCarta) {
-      let nomeCarta = prompt('Qual é o nome da nova carta?')
+      let nomeCarta = prompt('Qual é o nome da carta??')
       if (nomeCarta) {
-        cartasBaralho.push(nomeCarta)
-        alert(`Carta adicionada: ${nomeCarta}`)
+        cartasBaralho.push()
+        alert(`A carta adicionada: ${nomeCarta}`)
       } else {
         alert('Por favor, adicione uma nova carta.')
       }
@@ -46,14 +44,14 @@ const truco = () => {
   }
 
   const sair = () => {
-    alert('Obrigado por jogar!')
+    alert('Obrigado por jogar!!')
   }
 
   while (true) {
     puxarCarta()
 
     if (cartasBaralho.length === 0) {
-      alert('O baralho está vazio. Fim do jogo!')
+      alert('O baralho está vazio. Fim de jogo!')
       break
     }
 
