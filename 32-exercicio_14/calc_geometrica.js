@@ -5,20 +5,20 @@ const calcGeo = () => {
     let base = parseFloat(prompt('Por favor, informe o valor da base:'))
     let altura = parseFloat(prompt('Agora, informe o valor da altura:'))
 
-    alert(`O cálculo do triângulo é: ${(base * altura) / 2}`)
+    return alert(`O cálculo do triângulo é: ${(base * altura) / 2}`)
   }
 
   const ret = () => {
     let base = parseFloat(prompt('Por favor, informe o valor da base:'))
     let altura = parseFloat(prompt('Agora, informe o valor da altura:'))
 
-    alert(`O cálculo do retângulo é: ${base * altura}`)
+    return alert(`O cálculo do retângulo é: ${base * altura}`)
   }
 
   const qua = () => {
     let lado = parseFloat(prompt('Por favor, informe o valor do lado:'))
 
-    alert(`O cálculo do quadrado é: ${lado * lado}`)
+    return alert(`O cálculo do quadrado é: ${lado * lado}`)
   }
 
   const tra = () => {
@@ -28,14 +28,14 @@ const calcGeo = () => {
     let baseMenor = parseFloat(prompt('Agora, informe o valor da base menor:'))
     let altura = parseFloat(prompt('Por fim, informe o valor da altura:'))
 
-    alert(`O cálculo do trapézio é: ${((baseMaior + baseMenor) * altura) / 2}`)
+    return alert(`O cálculo do trapézio é: ${((baseMaior + baseMenor) * altura) / 2}`)
   }
 
   const cir = () => {
     let pi = 3.14
     let raio = parseFloat(prompt('Por favor, informe o raio:'))
 
-    alert(`O cálculo do círculo é: ${pi * (raio * raio)}`)
+    return alert(`O cálculo do círculo é: ${pi * (raio * raio)}`)
   }
 
   do {
