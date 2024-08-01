@@ -1,0 +1,7 @@
+- São objetos padrão da linguagem javascript que ficam sempre disponíveis para utilizarmos.
+
+- **Atenção:** não confundir com o objeto de escopo global window do navegador (ou o escopo global de outros ambientes)
+
+- Podem ser usados para criar e converter valores
+
+- Possuem propriedades e funções úteis e frequentemente necessárias
